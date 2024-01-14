@@ -1,5 +1,8 @@
 package solutions;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ArraysAndStringSolution {
 
     public static String mergeAlternately(String word1, String word2) {
@@ -27,5 +30,19 @@ public class ArraysAndStringSolution {
             str1Length = temp;
         }
         return str1.substring(0, str1Length);
+    }
+
+    public static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
+        List<Boolean> result = new ArrayList<>();
+        int maxCandy = 0;
+        for (int candy : candies) {
+            if (candy >= maxCandy) {
+                maxCandy = candy;
+            }
+        }
+        for (int candy : candies) {
+            result.add((candy + extraCandies) >= maxCandy);
+        }
+        return result;
     }
 }
