@@ -1,35 +1,35 @@
-Sure thing, Vishnu! Here are two questions for each of those topics:
+Sure, Vishnu! Here's a simple Java solution for the palindrome checker problem:
 
-**Docker:**
+```java
+import java.util.Scanner;
 
-1. **What is Docker and how does it differ from a virtual machine?**
-   - This assesses their understanding of containerization versus virtualization. Docker containers are isolated environments that share the host system's kernel, making them more lightweight than VMs.
+public class PalindromeChecker {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string to check if it's a palindrome: ");
+        String input = scanner.nextLine();
 
-2. **How do you create a Dockerfile and what are some common instructions in it?**
-   - This checks their practical knowledge in creating Docker containers. Common instructions include FROM, RUN, CMD, EXPOSE, and COPY.
+        if (isPalindrome(input)) {
+            System.out.println(input + " is a Palindrome");
+        } else {
+            System.out.println(input + " is not a Palindrome");
+        }
+    }
 
-**Kubernetes:**
+    private static boolean isPalindrome(String str) {
+        str = str.replaceAll("[\\W]", "").toLowerCase(); // Remove non-word characters and convert to lower case
+        int left = 0, right = str.length() - 1;
 
-1. **What is Kubernetes and why is it used?**
-   - This question tests their understanding of Kubernetes as an orchestration tool for managing containerized applications, providing features like load balancing, auto-scaling, and self-healing.
+        while (left < right) {
+            if (str.charAt(left) != str.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+        return true;
+    }
+}
+```
 
-2. **Explain the role of a Pod in Kubernetes.**
-   - This question assesses their knowledge of the basic scheduling unit in Kubernetes, which hosts one or more containers that share the same context and resources.
-
-**Microservices:**
-
-1. **What are microservices and how do they differ from a monolithic architecture?**
-   - This tests their understanding of microservices as a suite of independently deployable, small, modular services, each running a unique process and communicating through lightweight mechanisms. In contrast, a monolithic architecture is a single, unified unit.
-
-2. **What are the challenges of implementing microservices and how are they typically addressed?**
-   - This question assesses their knowledge of common challenges like data consistency, inter-service communication, and distributed system complexity. Solutions include API gateways, service discovery, and centralized configuration management.
-
-**REST API:**
-
-1. **What is a REST API and what principles does it follow?**
-   - This evaluates their understanding of REST (Representational State Transfer) as a set of guidelines for creating stateless, scalable web services. Principles include stateless operations, cacheable responses, and uniform interface.
-
-2. **How do HTTP methods (GET, POST, PUT, DELETE) correspond to CRUD operations?**
-   - This checks their practical knowledge of REST API operations: GET for reading, POST for creating, PUT for updating, and DELETE for deleting resources.
-
-These questions should help you gauge a candidate's foundational understanding and practical knowledge in these areas.
+In this code, the `isPalindrome` method first sanitizes the input string by removing all non-word characters and converting it to lowercase. Then, it uses two pointers (left and right) to compare characters from both ends, moving towards the center. If any pair of characters doesn't match, it returns `false`. If all pairs match, it returns `true`, indicating the string is a palindrome.
