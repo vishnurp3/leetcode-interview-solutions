@@ -1,35 +1,35 @@
-Sure, Vishnu! Here's a simple Java solution for the palindrome checker problem:
+Starting an interview on the right note is important, Vishnu. Here's a structured way to begin the interview and some questions to understand the candidate's past experience:
 
-```java
-import java.util.Scanner;
+1. **Introduction:**
+   Begin by introducing yourself and giving a brief overview of the company and the role. This sets a professional yet welcoming tone.
 
-public class PalindromeChecker {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a string to check if it's a palindrome: ");
-        String input = scanner.nextLine();
+   _Example:_ "Good morning/afternoon, I'm [Your Name], a software developer with [Your Company]. We're excited about the possibility of you joining our team. Today, I'll be discussing your experience and technical skills to better understand how you might fit into the role."
 
-        if (isPalindrome(input)) {
-            System.out.println(input + " is a Palindrome");
-        } else {
-            System.out.println(input + " is not a Palindrome");
-        }
-    }
+2. **Candidate's Self-Introduction:**
+   Ask the candidate to introduce themselves. This allows them to present themselves in their own words.
 
-    private static boolean isPalindrome(String str) {
-        str = str.replaceAll("[\\W]", "").toLowerCase(); // Remove non-word characters and convert to lower case
-        int left = 0, right = str.length() - 1;
+   _Example:_ "Could you start by telling me a little about yourself and your professional journey so far?"
 
-        while (left < right) {
-            if (str.charAt(left) != str.charAt(right)) {
-                return false;
-            }
-            left++;
-            right--;
-        }
-        return true;
-    }
-}
-```
+3. **Discussion on Past Experience:**
+   Delve into their professional background with specific questions. Keep it concise and focused on relevant experience.
 
-In this code, the `isPalindrome` method first sanitizes the input string by removing all non-word characters and converting it to lowercase. Then, it uses two pointers (left and right) to compare characters from both ends, moving towards the center. If any pair of characters doesn't match, it returns `false`. If all pairs match, it returns `true`, indicating the string is a palindrome.
+   _Example Questions:_
+   - "Can you walk me through your experience at [Previous Company] and your role there?"
+   - "What were the primary technologies and tools you used in your most recent projects?"
+   - "Could you describe a challenging project you worked on and how you addressed the challenges?"
+   - "In your last role, what kind of team were you a part of, and what was your specific contribution?"
+   - "Have you worked on any projects that involved [specific technology or methodology relevant to the role they're applying for]?"
+
+4. **Gauging Interest in Current Role:**
+   Understand their motivation for applying and their knowledge about your company.
+
+   _Example Questions:_
+   - "What prompted you to apply for this position?"
+   - "What do you know about our company/products, and how do you see yourself contributing?"
+
+5. **Transition to Technical Segment:**
+   Signal the transition to the technical part of the interview.
+
+   _Example:_ "Thank you for sharing your background. Now, let's move on to some technical questions to understand your skills and problem-solving approach better."
+
+This structure helps create a formal yet comfortable atmosphere, allowing you to gain insights into the candidate's past experiences and suitability for the role.
