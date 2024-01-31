@@ -1,35 +1,18 @@
-Starting an interview on the right note is important, Vishnu. Here's a structured way to begin the interview and some questions to understand the candidate's past experience:
+Absolutely, Vishnu. Here are five basic questions about Angular along with concise answers, suitable for someone with a fundamental understanding of the framework:
 
-1. **Introduction:**
-   Begin by introducing yourself and giving a brief overview of the company and the role. This sets a professional yet welcoming tone.
+**1. What is Angular and what makes it different from AngularJS?**
+   - **Answer:** Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google. It's a complete rewrite from the same team that built AngularJS. Unlike AngularJS which uses JavaScript, Angular is built on TypeScript and offers improved performance, a component-based architecture, and better tooling.
 
-   _Example:_ "Good morning/afternoon, I'm [Your Name], a software developer with [Your Company]. We're excited about the possibility of you joining our team. Today, I'll be discussing your experience and technical skills to better understand how you might fit into the role."
+**2. Explain what components are in Angular.**
+   - **Answer:** Components are the basic building blocks of Angular applications. Each component consists of an HTML template that declares how that component renders, a TypeScript class that defines behavior, and a CSS selector that defines how the component is used in a template. Components are essentially elements of the UI.
 
-2. **Candidate's Self-Introduction:**
-   Ask the candidate to introduce themselves. This allows them to present themselves in their own words.
+**3. What are services in Angular and how are they used?**
+   - **Answer:** Services in Angular are singleton objects that provide a method to keep data throughout the life of an application. They contain methods that maintain data and logic. Services are typically used for data sharing, implementing application logic, and interacting with external resources (like web services).
 
-   _Example:_ "Could you start by telling me a little about yourself and your professional journey so far?"
+**4. Can you explain data binding in Angular?**
+   - **Answer:** Data binding is a core concept in Angular that allows the communication between a component and its DOM, making it easy to synchronize the two. There are four types of data binding: Interpolation ({{ }}), Property Binding ([ ]), Event Binding (( )), and Two-Way Data Binding ([()]).
 
-3. **Discussion on Past Experience:**
-   Delve into their professional background with specific questions. Keep it concise and focused on relevant experience.
+**5. What is a directive in Angular and can you name a few types?**
+   - **Answer:** Directives in Angular are classes that add additional behavior to elements in your Angular applications. There are three main types: Components (directives with a template), Structural directives (change the DOM layout by adding and removing DOM elements, like *ngFor and *ngIf), and Attribute directives (change the appearance or behavior of an element, component, or another directive, like ngStyle).
 
-   _Example Questions:_
-   - "Can you walk me through your experience at [Previous Company] and your role there?"
-   - "What were the primary technologies and tools you used in your most recent projects?"
-   - "Could you describe a challenging project you worked on and how you addressed the challenges?"
-   - "In your last role, what kind of team were you a part of, and what was your specific contribution?"
-   - "Have you worked on any projects that involved [specific technology or methodology relevant to the role they're applying for]?"
-
-4. **Gauging Interest in Current Role:**
-   Understand their motivation for applying and their knowledge about your company.
-
-   _Example Questions:_
-   - "What prompted you to apply for this position?"
-   - "What do you know about our company/products, and how do you see yourself contributing?"
-
-5. **Transition to Technical Segment:**
-   Signal the transition to the technical part of the interview.
-
-   _Example:_ "Thank you for sharing your background. Now, let's move on to some technical questions to understand your skills and problem-solving approach better."
-
-This structure helps create a formal yet comfortable atmosphere, allowing you to gain insights into the candidate's past experiences and suitability for the role.
+These questions are intended to test foundational knowledge in Angular without going too deep into complex topics.
