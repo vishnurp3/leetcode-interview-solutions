@@ -1,33 +1,18 @@
-Sure, Vishnu! Here are concise answers to each of those questions:
+Of course, Vishnu! Here are five questions to assess someone's knowledge of Spring Boot:
 
-1. **JDK vs JRE vs JVM**:
-   - JDK (Java Development Kit) is a full development kit including JRE (Java Runtime Environment) and development tools. JRE is a package of libraries and JVM (Java Virtual Machine) for executing Java programs. JVM is an engine that provides a runtime environment to execute Java bytecode.
+1. **What is Spring Boot and how does it differ from the Spring framework?**
+   - Spring Boot is a module of Spring that provides rapid application development features to the Spring framework, like auto-configuration and standalone application capabilities, making it easier to create production-grade Spring-based applications.
 
-2. **Concept of OOP and its principles**:
-   - OOP (Object-Oriented Programming) is based on using objects and classes. Its principles include Encapsulation (bundling data and methods), Inheritance (deriving new classes from existing ones), Polymorphism (using a single interface to represent different types), and Abstraction (hiding complex implementation details).
+2. **Can you explain the concept of auto-configuration in Spring Boot?**
+   - Auto-configuration in Spring Boot automatically configures your application based on the jar dependencies you have added. It simplifies the setup and configuration process.
 
-3. **Java's platform independence**:
-   - Java achieves platform independence through its bytecode, which can be executed on any platform using the JVM, making the code "write once, run anywhere."
+3. **What is a Spring Boot Starter and can you name a few common starters?**
+   - Spring Boot Starters are a set of convenient dependency descriptors that you can include in your application. Common starters include 'spring-boot-starter-web' for web applications and 'spring-boot-starter-data-jpa' for Spring Data JPA.
 
-4. **Abstract class vs Interface**:
-   - An abstract class can have method implementations but an interface cannot (until Java 8). Interfaces support multiple inheritances, while abstract classes do not.
+4. **How does Spring Boot handle database migrations or schema management?**
+   - Spring Boot can integrate with tools like Liquibase or Flyway for database migrations and schema management, automating the process of database schema updates.
 
-5. **Garbage collection in Java**:
-   - Garbage collection automatically deallocates memory that is no longer in use, preventing memory leaks.
+5. **What are Actuators in Spring Boot and what is their purpose?**
+   - Actuators in Spring Boot are used to expose operational information about the running application – health, metrics, info, dump, env, etc. They are mainly used for monitoring and management of the application.
 
-6. **Java Collections**:
-   - Collections in Java are frameworks that provide an architecture to store and manipulate groups of objects. Common collections include ArrayList, HashSet, HashMap, etc.
-
-7. **Exception handling in Java**:
-   - Java uses try-catch blocks to handle exceptions. Try is used to define a block of code to be tested for errors, and catch is used to define a block of code to be executed if an error occurs.
-
-8. **Difference between '==' and '.equals()'**:
-   - '==' checks for reference equality (whether they point to the same object), while '.equals()' checks for content equality.
-
-9. **Java ClassLoader**:
-   - ClassLoader in Java is a part of the JVM that dynamically loads Java classes into the Java Virtual Machine.
-
-10. **New features in the latest Java version**:
-    - This answer will vary based on the latest Java version you're considering. For example, as of Java 17, notable features include pattern matching for switch (preview), sealed classes, and new APIs for random number generation.
-
-These answers should serve as a quick reference guide for your interviews!
+These questions should help you gauge a candidate's familiarity with Spring Boot and its key features.
