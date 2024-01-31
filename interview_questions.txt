@@ -1,18 +1,37 @@
-Of course, Vishnu! Here are five questions to assess someone's knowledge of Spring Boot:
+Absolutely, Vishnu. Here are five questions for SQL and JPA (Java Persistence API):
 
-1. **What is Spring Boot and how does it differ from the Spring framework?**
-   - Spring Boot is a module of Spring that provides rapid application development features to the Spring framework, like auto-configuration and standalone application capabilities, making it easier to create production-grade Spring-based applications.
+**SQL Questions:**
 
-2. **Can you explain the concept of auto-configuration in Spring Boot?**
-   - Auto-configuration in Spring Boot automatically configures your application based on the jar dependencies you have added. It simplifies the setup and configuration process.
+1. **What are the different types of JOINs in SQL?**
+   - This checks their understanding of JOIN operations like INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, and CROSS JOIN.
 
-3. **What is a Spring Boot Starter and can you name a few common starters?**
-   - Spring Boot Starters are a set of convenient dependency descriptors that you can include in your application. Common starters include 'spring-boot-starter-web' for web applications and 'spring-boot-starter-data-jpa' for Spring Data JPA.
+2. **How do you normalize a database and what are the different normal forms?**
+   - It's about organizing data to reduce redundancy. Normal forms include 1NF (First Normal Form), 2NF, 3NF, and BCNF (Boyce-Codd Normal Form).
 
-4. **How does Spring Boot handle database migrations or schema management?**
-   - Spring Boot can integrate with tools like Liquibase or Flyway for database migrations and schema management, automating the process of database schema updates.
+3. **What is the difference between WHERE and HAVING clauses in SQL?**
+   - WHERE is used to filter rows before groupings are made, while HAVING is used to filter groups after groupings are made.
 
-5. **What are Actuators in Spring Boot and what is their purpose?**
-   - Actuators in Spring Boot are used to expose operational information about the running application – health, metrics, info, dump, env, etc. They are mainly used for monitoring and management of the application.
+4. **Explain the use of indexes in databases.**
+   - Indexes are used to speed up the retrieval of data from a database table by providing rapid random lookups and efficient access to ordered records.
 
-These questions should help you gauge a candidate's familiarity with Spring Boot and its key features.
+5. **What are SQL transactions and how do they work?**
+   - Transactions are sequences of SQL operations that are treated as a single unit. They must all succeed (commit) or fail (rollback) together, maintaining database integrity.
+
+**JPA Questions:**
+
+1. **What is JPA and why is it used?**
+   - JPA (Java Persistence API) is a Java specification for accessing, persisting, and managing data between Java objects and a relational database. It's used for ORM (Object-Relational Mapping).
+
+2. **Explain the role of the EntityManager in JPA.**
+   - EntityManager in JPA is used for creating and removing persistent entity instances, finding entities by primary key, and querying over entities.
+
+3. **What is the difference between JPA and Hibernate?**
+   - JPA is a specification for object-relational mapping in Java, while Hibernate is a concrete implementation of the JPA specification.
+
+4. **How does JPA handle lazy and eager loading?**
+   - Lazy loading loads the related entities from the database only when you access them, while eager loading loads them at the time of fetching the parent entity, reducing the number of queries to the database.
+
+5. **What are JPA Repositories, and how are they used?**
+   - JPA Repositories are interfaces in Spring Data JPA that provide methods for CRUD operations and querying the database, simplifying the data access layer.
+
+These questions cover basic to intermediate knowledge of SQL and JPA, useful for assessing a candidate's proficiency.
