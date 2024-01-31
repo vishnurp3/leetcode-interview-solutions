@@ -1,37 +1,35 @@
-Absolutely, Vishnu. Here are five questions for SQL and JPA (Java Persistence API):
+Sure thing, Vishnu! Here are two questions for each of those topics:
 
-**SQL Questions:**
+**Docker:**
 
-1. **What are the different types of JOINs in SQL?**
-   - This checks their understanding of JOIN operations like INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, and CROSS JOIN.
+1. **What is Docker and how does it differ from a virtual machine?**
+   - This assesses their understanding of containerization versus virtualization. Docker containers are isolated environments that share the host system's kernel, making them more lightweight than VMs.
 
-2. **How do you normalize a database and what are the different normal forms?**
-   - It's about organizing data to reduce redundancy. Normal forms include 1NF (First Normal Form), 2NF, 3NF, and BCNF (Boyce-Codd Normal Form).
+2. **How do you create a Dockerfile and what are some common instructions in it?**
+   - This checks their practical knowledge in creating Docker containers. Common instructions include FROM, RUN, CMD, EXPOSE, and COPY.
 
-3. **What is the difference between WHERE and HAVING clauses in SQL?**
-   - WHERE is used to filter rows before groupings are made, while HAVING is used to filter groups after groupings are made.
+**Kubernetes:**
 
-4. **Explain the use of indexes in databases.**
-   - Indexes are used to speed up the retrieval of data from a database table by providing rapid random lookups and efficient access to ordered records.
+1. **What is Kubernetes and why is it used?**
+   - This question tests their understanding of Kubernetes as an orchestration tool for managing containerized applications, providing features like load balancing, auto-scaling, and self-healing.
 
-5. **What are SQL transactions and how do they work?**
-   - Transactions are sequences of SQL operations that are treated as a single unit. They must all succeed (commit) or fail (rollback) together, maintaining database integrity.
+2. **Explain the role of a Pod in Kubernetes.**
+   - This question assesses their knowledge of the basic scheduling unit in Kubernetes, which hosts one or more containers that share the same context and resources.
 
-**JPA Questions:**
+**Microservices:**
 
-1. **What is JPA and why is it used?**
-   - JPA (Java Persistence API) is a Java specification for accessing, persisting, and managing data between Java objects and a relational database. It's used for ORM (Object-Relational Mapping).
+1. **What are microservices and how do they differ from a monolithic architecture?**
+   - This tests their understanding of microservices as a suite of independently deployable, small, modular services, each running a unique process and communicating through lightweight mechanisms. In contrast, a monolithic architecture is a single, unified unit.
 
-2. **Explain the role of the EntityManager in JPA.**
-   - EntityManager in JPA is used for creating and removing persistent entity instances, finding entities by primary key, and querying over entities.
+2. **What are the challenges of implementing microservices and how are they typically addressed?**
+   - This question assesses their knowledge of common challenges like data consistency, inter-service communication, and distributed system complexity. Solutions include API gateways, service discovery, and centralized configuration management.
 
-3. **What is the difference between JPA and Hibernate?**
-   - JPA is a specification for object-relational mapping in Java, while Hibernate is a concrete implementation of the JPA specification.
+**REST API:**
 
-4. **How does JPA handle lazy and eager loading?**
-   - Lazy loading loads the related entities from the database only when you access them, while eager loading loads them at the time of fetching the parent entity, reducing the number of queries to the database.
+1. **What is a REST API and what principles does it follow?**
+   - This evaluates their understanding of REST (Representational State Transfer) as a set of guidelines for creating stateless, scalable web services. Principles include stateless operations, cacheable responses, and uniform interface.
 
-5. **What are JPA Repositories, and how are they used?**
-   - JPA Repositories are interfaces in Spring Data JPA that provide methods for CRUD operations and querying the database, simplifying the data access layer.
+2. **How do HTTP methods (GET, POST, PUT, DELETE) correspond to CRUD operations?**
+   - This checks their practical knowledge of REST API operations: GET for reading, POST for creating, PUT for updating, and DELETE for deleting resources.
 
-These questions cover basic to intermediate knowledge of SQL and JPA, useful for assessing a candidate's proficiency.
+These questions should help you gauge a candidate's foundational understanding and practical knowledge in these areas.
